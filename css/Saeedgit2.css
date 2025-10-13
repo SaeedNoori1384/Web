@@ -1,0 +1,9 @@
+.flex-container {
+    background-color: aqua;
+    align-items: center;
+    flex-direction: row;
+}
+
+.flex-items {
+    background-color: gold;
+}
