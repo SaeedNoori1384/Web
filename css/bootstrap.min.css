@@ -13938,3 +13938,15 @@ fieldset:disabled .btn {
     flex-direction: column;
     justify-content: center;
 }
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-item {
+    margin: 1rem;
+    padding: .5rem;
+    background-color: rgb(255, 236, 192);
+    text-align: center;
+}
