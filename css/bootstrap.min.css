@@ -13958,3 +13958,7 @@ fieldset:disabled .btn {
 .Hamidreza {
     color: rgb(128, 128, 128);
 }
+
+.flex-container {
+    display: flex;
+}
