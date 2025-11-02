@@ -1,9 +1,11 @@
-function sum(a, b) {
-    return a * b
+"use strict"
+
+var x = 100;
+function saysomething() {
+    console.log(x)
+    var x = 50
+    console.log(x)
 }
-console.log(sum(4, 5))
-console.log(sum(5, 6))
-console.log(sum(20, 3))
-console.log(sum(2, 20))
-console.log(sum(25, 4))
-console.log(sum(9, 9))
+saysomething()
+x = 90
+console.log(x)
