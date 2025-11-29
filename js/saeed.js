@@ -1,13 +1,13 @@
 'use strict'
-var car = {
-    make: "America",
-    model: 1969,
-    "year-old": 1999,
-    details: {
-        colorS: ["red", "Yellow", "Black", "White"],
-        wheel: 4
+function Car(mo, ma, y) {
+    this.model = mo;
+    this.year = y;
+    this.make = ma;
+    this.run = function () {
+        return "Speed up to 200";
     }
 }
-car.name = "Ford"
-car["maximum-use"] = 30
-console.log(car["maximum-use"])
+
+var car3 = new Car("PeZho", "Iran", 1969);
+console.log(car3)
+
